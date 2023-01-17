@@ -1,6 +1,6 @@
 # Amazon clone in NextJS
 ### Built to learn React and NextJS
-#### Forked from [Sonny Sangha's ](https://github.com/sonnysangha) [Amazon starter template](https://github.com/sonnysangha/Amazon-starter-template-nextjs)
+### Forked from [Sonny Sangha's ](https://github.com/sonnysangha) [Amazon starter template](https://github.com/sonnysangha/Amazon-starter-template-nextjs)
 # Installation Steps
 
 
