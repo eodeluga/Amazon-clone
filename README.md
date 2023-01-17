@@ -1,3 +1,6 @@
+# Amazon clone in NextJS
+### Built to learn React and NextJS
+### Cloned from [Sonny Sangha's ](https://github.com/sonnysangha) [Amazon starter template](https://github.com/sonnysangha/Amazon-starter-template-nextjs)
 # Installation Steps
 
 
@@ -21,8 +24,3 @@ Run commands
 2) ```yarn install```
 
 3) ```yarn run dev```
-
-
-### If you see the window below then you are set to build AMAZON 2.0!
-
-![Template Screenshot](TemplateScreenshot.jpg?raw=true "Template Screenshot")
