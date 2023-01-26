@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { StarIcon } from '@heroicons/react/solid';
-import Currency from 'react-currency-formatter';
+import Currency from './Currency';
 
 const MAX_RATING = 5;
 const MIN_RATING = 1;
@@ -12,6 +12,7 @@ function Product({ id, title, price, description, category, image }) {
     const [hasPrime, setHasPrime] = useState(0)
     const randomVal = Math.floor(Math.random() * (MAX_RATING - MIN_RATING + 11)) + MIN_RATING;
     
+    // Fixes hydration error by triggering a React re-render after setting these states 
     useEffect(() => {
         setRating(randomVal)
         setHasPrime(Math.random() < 0.5);
@@ -40,7 +41,7 @@ function Product({ id, title, price, description, category, image }) {
             <p className="text-xs my-2 line-clamp-2">{description}</p>
             {
                 <div className="mb-5">
-                    <Currency quantity={price} currency="GBP" />
+                    <Currency value={price} symbol="£"/>
                 </div>
             }
 
