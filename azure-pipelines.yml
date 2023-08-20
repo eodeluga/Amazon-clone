@@ -1,4 +1,7 @@
 # Docker
+- task: NodeTaskRunnerInstaller@0
+  inputs:
+    nodeVersion: '6'
 # Build a Docker image
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
